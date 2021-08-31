@@ -2,5 +2,5 @@
 
 Guides
 
-* [Typescript](./typescript.styleguide.md)
+* [TypeScript](./typescript.styleguide.md)
 
