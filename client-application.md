@@ -27,9 +27,9 @@
 
 ## Definition of Terms
 
-### Entity
+### **Entity**
 
-Represents a single record on the business domain. 
+Represents a record on the business domain. 
 
 Entity is central focus of application. All presentation logic are implemented based on the requirements required to manipulate entity properties or records.
 
@@ -37,7 +37,7 @@ Entity is central focus of application. All presentation logic are implemented b
 
 *Student for example is an enity that represent the properties of a school student.*
 
-### Entity Resource     
+### **Entity Resource**     
 
 A Resource is the data represention of an entity that is stored OFFLINE or/and ONLINE.
 
@@ -45,10 +45,15 @@ Enity Resource is record manager for specific [entity](#entity) that keeps synch
 
 Middleware between UI States and Storage.
 
-### Entity Service 
+### **Entity Service**
 
-Service Access for a specific entity to ONLINE resources via RESTFul API.
+Web Service Access for a specific entity to ONLINE resources via RESTFul API.
 
+### Resource Synchronizer
+
+### Resource Registration
+
+### Synchronizatin Worker
 
 
 
